@@ -1,4 +1,4 @@
-package com.baijianjava.entity;
+package com.baijianjava.web.entity;
 
 public class Module {
 

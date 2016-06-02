@@ -4,12 +4,8 @@
 <html>
 <head>
 <body>
-
 <script>
-
-	window.location.href="<c:url value='/index.do'/>";
-
-
+	window.location.href="<c:url value='/index'/>";
 </script>
 
 </body>

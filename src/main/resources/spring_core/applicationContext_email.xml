@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"
+       default-lazy-init="true">
+    <!-- SET default mail properties -->
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="${host_163}"/>
+        <property name="protocol" value="${protocol}" />
+        <!-- 465 for Gamil -->
+        <property name="port" value="${port}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+        <property name="javaMailProperties">
+            <props>
+                <prop key="mail.transport.protocol">smtp</prop>
+                <prop key="mail.smtp.auth">true</prop>
+                <!-- true for Gamil -->
+                <prop key="mail.smtp.starttls.enable">false</prop>
+                <prop key="mail.debug">true</prop>
+            </props>
+        </property>
+    </bean>
+    <!--Asyn send Eamil-->
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="10"/>
+        <property name="maxPoolSize" value="30"/>
+    </bean>
+
+    <!-- You can have some pre-configured messagess also which are ready to send -->
+    <bean id="preConfiguredMessage" class="org.springframework.mail.SimpleMailMessage">
+        <property name="to" value="285990341@qq.com"></property>
+        <property name="from" value="mucbaijian@163.com"></property>
+        <property name="subject" value="Test email from sina."/>
+    </bean>
+</beans>
