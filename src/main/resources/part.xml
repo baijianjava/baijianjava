@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><parts>
+<modules>
+
+	
+		<module id="1" img="2016052015405840090.png" pid="0" url="index/bk.do" urlid="0" words="(BK)暴恐音视频管理平台"/>
+		<module id="2" img="2016052009225170631.png" pid="0" url="index/wxt.do" urlid="0" words="网信通系统"/>
+		<module id="3" img="2016052009230355757.png" pid="0" url="http://sh.cyyun.com:89/xc-gj-wxb" urlid="1" words="(网研中心)互联网舆情信息报送反馈系统"/>
+		<module id="4" img="2016052009271944268.png" pid="0" url="index/xxfw.do" urlid="0" words="(信息服务管理局)"/>
+		<module id="5" img="2016052009273646070.png" pid="0" url="index/jbzx.do" urlid="0" words="(举报中心)全国网络举报工作管理系统"/>
+		<module id="6" img="2016052009274786643.png" pid="0" url="index/yhxx.do" urlid="0" words="有害信息样本库"/>
+		<module id="7" img="2016052009275532124.png" pid="0" url="http://115.156.163.229:8443/BKWeb/signin.html" urlid="1" words="移动应用市场BK应用检测系统"/>
+		<module id="8" img="2016052009281653972.png" pid="0" url="http://111.202.27.11" urlid="1" words="取证系统"/>
+
+		
+
+
+
+		<module id="11" img="201605201518109201.png" pid="1" url="http://192.168.239.34:8081/bi" urlid="1" words="可视化系统"/>
+		<module id="12" img="2016052015182656108.png" pid="1" url="http://192.168.239.192:8080/SuspectInfoJudge/home.do" urlid="1" words="监测发现系统（研判系统）"/>
+		<module id="13" img="201605201518417915.png" pid="1" url="http://192.168.239.167:8080/bi" urlid="1" words="暴恐音视频样本库"/>
+		<module id="14" img="2016052015184987001.png" pid="1" url="http://192.168.239.192:8080/SuspectInfoJudge/home.do" urlid="1" words="查控系统"/>
+
+	
+		<module id="16" img="2016052015194382624.png" pid="2" url="http://10.10.23.25:8080" urlid="1" words="安装网信通"/>
+
+		<module id="17" img="2016052015200384943.png" pid="4" url="http://123.57.58.199:10005" urlid="1" words="企业端系统"/>
+		<module id="18" img="2016052015201271361.png" pid="4" url="http://123.57.58.199:10004" urlid="1" words="许可系统"/>
+		<module id="19" img="201605201520207450.png" pid="4" url="http://123.57.58.199:10002" urlid="1" words="后台管理系统"/>
+
+		<module id="20" img="2016052015202980175.png" pid="5" url="http://111.202.27.195:13225/index.html" urlid="1" words="举报提交页面"/>
+		<module id="21" img="2016052015203688621.png" pid="5" url="http://111.202.27.197:13224/logon.do" urlid="1" words="国家举报中心访问地址"/>
+		<module id="22" img="2016052015204410112.png" pid="5" url="http://111.202.27.196:13223/logon.do" urlid="1" words="二级举报中心访问地址"/>
+
+		
+		<module id="24" img="2016052015205326717.png" pid="6" url="http://192.168.239.174:8085" urlid="1" words="有害信息样本库系统"/>
+		<module id="25" img="201605201521003266.png" pid="6" url="http://192.168.239.174:8087" urlid="1" words="大屏展示系统"/>
+
+		
+		
+</modules>
+</parts>

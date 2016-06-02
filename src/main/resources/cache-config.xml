@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cache>
+    <cache-entry>
+    	<entry identify="SAMPLE_ZD" description="样本库字典表">
+				<dataSql><![CDATA[select code as dm, name as mc,alias as jc, '' as sm,'SAMPLE_ZD' as sourceId, typecode as lxjp, typename as pyjp from sample_zd order by orderby]]></dataSql>
+		</entry>
+		<entry identify="GXB_ZD" description="GXB字典表">
+				<dataSql><![CDATA[select dm, mc, jc, '' as sm,'GXB_ZD' as sourceId, lxdm as lxjp, lxmc as pyjp from gxb_zd order by px]]></dataSql>
+		</entry>
+	</cache-entry>
+</cache>
