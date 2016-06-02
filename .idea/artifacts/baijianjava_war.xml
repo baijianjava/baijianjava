@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="baijianjava:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SuspectInfoJudge.war">
+      <element id="artifact" artifact-name="baijianjava:war exploded" />
+    </root>
+  </artifact>
+</component>
